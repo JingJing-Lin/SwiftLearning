@@ -11,6 +11,8 @@ if let name = str {
 
 let fullName = "Hi \(str ?? "jack")"
 
+//-------------------------- 控制流
+
 let vege = "red paopao"
 
 switch vege {
