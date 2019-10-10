@@ -53,3 +53,9 @@ while n < 100 {
     n = n * 2
 }
 print(n)
+
+// 枚举 后可加判断条件
+var sum = 0
+for i in 1...10 where i % 2 == 0{
+    print(i)
+}
