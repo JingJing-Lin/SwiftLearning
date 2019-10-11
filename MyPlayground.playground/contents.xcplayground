@@ -2,9 +2,10 @@
 <playground version='6.0' target-platform='ios'>
     <pages>
         <page name='3.对象'/>
-        <page name='1.字符串'/>
         <page name='2.函数'/>
         <page name='4.协议'/>
         <page name='5.错误'/>
+        <page name='4.泛型'/>
+        <page name='基础内容'/>
     </pages>
 </playground>
