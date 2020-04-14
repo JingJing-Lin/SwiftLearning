@@ -7,5 +7,7 @@
         <page name='5.错误'/>
         <page name='4.泛型'/>
         <page name='基础内容'/>
+        <page name='6.闭包'/>
+        <page name='7.类结构体'/>
     </pages>
 </playground>
