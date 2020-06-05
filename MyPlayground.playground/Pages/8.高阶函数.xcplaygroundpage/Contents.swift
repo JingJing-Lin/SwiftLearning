@@ -55,5 +55,26 @@ let result2 = prices.filter {($0 > 25)}
 print(result2)
 
 
+// reduce 将集合中的所有项组合起来，以创建一个单一的值。
+struct Package{
+    var name:String
+    var number:Int
+    var price:Float
+    var address:String
+}
+
+let packages = [
+    Package(name: "Swift高阶函数编程", number: 1, price: 80.0, address: "中关村"),
+    Package(name: "Swift面向协议编程", number: 2, price: 88.0, address: "西二旗"),
+    Package(name: "Swift基础", number: 3, price: 35.0, address: "798"),
+    Package(name: "Swift进阶", number: 4, price: 50.0, address: "望京soho")
+]
+
+let reduceName = packages.reduce("") {$0 + $1.name}
+
+
+
+var numbersReduce = [1, 2, 3, 4, 5]
+var sumReduce = numbersReduce.reduce(0, +) // 15
 
 //: [Next](@next)
