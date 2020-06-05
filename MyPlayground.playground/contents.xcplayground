@@ -9,5 +9,6 @@
         <page name='基础内容'/>
         <page name='6.闭包'/>
         <page name='7.类结构体'/>
+        <page name='8.高阶函数'/>
     </pages>
 </playground>
